@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+}
+header{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(65, 61, 61);
+}
+.logo span{
+  margin-left: 200px;
+  height: 200px;
+  line-height: 200px;
+  color:#fff;
+  font-size:30px;
+}
+.header-right{
+  position: absolute;
+  top:0;
+  right: 0;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.banner{
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-color: greenyellow;
+}
+.banner-focus{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 20px;
+  margin-bottom: 30px;
+  margin-right: 50px;
+}
+.banner-focus span{ 
+  display:inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: green;
+}
+.banner-focus span:hover{
+  background-color: rgb(236, 230, 230);
+}
+nav{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #ccc;
+}
+nav .nav1{  
+  position: absolute;
+  bottom: -1px;
+  margin-left: 480px;
+}
+nav .nav1 .nav2{
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  text-align: center;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  background-color: #ccc;
+}
+nav .nav1 .nav2:hover{
+  background-color: #fff;
+}
+.content{
+  margin: 0 auto;
+  width: 960px;
+  flex-direction: row;
+}
+.content1{
+  display: -webkit-flex;
+  display: flex;
+}
+.content2{
+  display: -webkit-flex;
+  display: flex;
+}
+.content3{
+  display: -webkit-flex;
+  display: flex;
+}
+.content .content1 div{
+  flex:1;
+  height: 150px;
+  margin: 10px;
+  border:1px solid #ccc;
+  line-height: 150px;
+  text-align: center;
+}
+.content .content2 div{
+  flex:1;
+  height: 150px;
+  margin: 10px;
+  border:1px solid #ccc;
+  line-height: 150px;
+  text-align: center
+}
+.content .content3 div{
+  flex:1;
+  height: 150px;
+  margin: 10px;
+  border:1px solid #ccc;
+  line-height: 150px;
+  text-align: center
+}
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: rgba(24, 23, 23, 0.644);
+}
+footer div{
+  text-align: center;
+  color:#fff;
+  padding-top: 20px;
+} 
